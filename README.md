@@ -13,9 +13,6 @@ Part | Image |
 | Onboarding 3 | <img src="https://user-images.githubusercontent.com/58913447/165699583-069f06f8-a364-41e1-a63c-bdc598e9a181.png" width="250" height="550" /> |
 | Onboarding 4 | <img src="https://user-images.githubusercontent.com/58913447/165699738-be976e84-15d8-454c-b940-43c4b0bde885.png" width="250" height="550" /> |
 
-# Running Program
-<img src="https://user-images.githubusercontent.com/58913447/159257295-dffd6d75-2586-4922-8a5c-c5634293f957.gif" width="250" height="550"/>
-
 ## LICENSE
 MIT License
 
