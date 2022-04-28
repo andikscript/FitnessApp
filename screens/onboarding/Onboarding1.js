@@ -1,8 +1,15 @@
 import React from 'react';
-import { Image, StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import {
+  Image,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import { COLORS } from '../../constants';
+import {COLORS} from '../../constants';
 import * as Progress from 'react-native-progress';
 
 const Onboarding1 = () => {
@@ -13,17 +20,12 @@ const Onboarding1 = () => {
         barStyle={'light-content'}
         translucent
       />
-      <LinearGradient
-        useAngle={true}
-        angle={90}
-        angleCenter={{x: 0.5, y: 0.5}}
-        colors={[COLORS.blueyoung, COLORS.purpleyoung]}
-        style={styles.boxImage}>
+      <View style={styles.boxImage}>
         <Image
           source={require('../../assets/image/onboarding1.png')}
           style={styles.image}
         />
-      </LinearGradient>
+      </View>
       <View style={styles.boxText}>
         <Text style={styles.heading}>Track Your Goal</Text>
         <Text style={styles.desc}>
@@ -53,7 +55,7 @@ const Onboarding1 = () => {
       </TouchableOpacity>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -62,15 +64,11 @@ const styles = StyleSheet.create({
   },
   boxImage: {
     flex: 1,
-    borderBottomLeftRadius: 190,
-    borderBottomRightRadius: 280,
-    justifyContent: 'flex-end',
-    alignItems: 'center',
+    backgroundColor: 'white',
   },
   image: {
-    width: 200,
-    height: 300,
-    marginBottom: 1,
+    width: '100%',
+    height: '100%',
   },
   boxText: {
     flex: 1,
@@ -82,6 +80,7 @@ const styles = StyleSheet.create({
     color: COLORS.black,
     marginTop: 20,
     marginLeft: 20,
+    width: 200,
   },
   desc: {
     fontSize: 14,
