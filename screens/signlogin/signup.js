@@ -33,22 +33,22 @@ const SignUp = () => {
         <View style={styles.boxSign}>
           {/* first name */}
           <View style={styles.boxInput}>
-            <Icon name="account-outline" size={22} color={'#656565'} />
+            <Icon name="account-outline" size={22} color={COLORS.gray} />
             <TextInput placeholder="First Name" style={styles.input} />
           </View>
           {/* last name */}
           <View style={styles.boxInput}>
-            <Icon name="account-outline" size={22} color={'#656565'} />
+            <Icon name="account-outline" size={22} color={COLORS.gray} />
             <TextInput placeholder="Last Name" style={styles.input} />
           </View>
           {/* email */}
           <View style={styles.boxInput}>
-            <Icon name="email-outline" size={22} color={'#656565'} />
+            <Icon name="email-outline" size={22} color={COLORS.gray} />
             <TextInput placeholder="Email" style={styles.input} />
           </View>
           {/* password */}
           <View style={styles.boxInput}>
-            <Icon name="lock-outline" size={22} color={'#656565'} />
+            <Icon name="lock-outline" size={22} color={COLORS.gray} />
             <TextInput
               placeholder="Password"
               style={styles.input}
@@ -59,7 +59,7 @@ const SignUp = () => {
                 <Icon
                   name={showPassword ? 'eye-off-outline': 'eye-outline'}
                   size={20}
-                  color={'#656565'}
+                  color={COLORS.gray}
                 />
               </TouchableOpacity>
             </View>
@@ -126,21 +126,21 @@ const SignUp = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: COLORS.white,
     marginTop: 40,
   },
   heading: {
     flex: 2,
-    backgroundColor: 'white',
+    backgroundColor: COLORS.white,
     marginTop: 10,
-    marginBottom: 40
+    marginBottom: 40,
   },
   boxHeading: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: COLORS.white,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 20
+    marginBottom: 20,
   },
   h1: {
     fontFamily: 'Poppins-Regular',
@@ -154,10 +154,10 @@ const styles = StyleSheet.create({
   },
   boxSign: {
     flex: 3,
-    backgroundColor: 'white',
+    backgroundColor: COLORS.white,
   },
   boxInput: {
-    backgroundColor: '#fafafa',
+    backgroundColor: COLORS.whiteGray,
     marginHorizontal: 20,
     borderRadius: 10,
     flexDirection: 'row',
@@ -166,11 +166,11 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   input: {
-    backgroundColor: 'transparent',
+    backgroundColor: COLORS.transparent,
     marginLeft: 10,
     fontFamily: 'Poppins-Regular',
     fontSize: 14,
-    color: '#656565',
+    color: COLORS.gray,
     flex: 1,
   },
   boxCheck: {
@@ -182,11 +182,11 @@ const styles = StyleSheet.create({
     marginRight: 30,
     fontFamily: 'Poppins-Regular',
     fontSize: 12,
-    color: '#656565',
+    color: COLORS.gray,
   },
   bottom: {
     flex: 1.2,
-    backgroundColor: 'white',
+    backgroundColor: COLORS.white,
   },
   button: {
     borderRadius: 50,
@@ -209,12 +209,12 @@ const styles = StyleSheet.create({
   line: {
     borderBottomWidth: 1,
     flex: 1,
-    borderColor: '#656565',
+    borderColor: COLORS.gray,
   },
   textOr: {
     fontFamily: 'Poppins-Regular',
     fontSize: 15,
-    color: '#656565',
+    color: COLORS.gray,
   },
   boxSocmed: {
     flexDirection: 'row',
@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
     height: 50,
     borderRadius: 10,
     marginRight: 20,
-    borderColor: '#656565',
+    borderColor: COLORS.gray,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -239,7 +239,7 @@ const styles = StyleSheet.create({
   already: {
     fontFamily: 'Poppins-Regular',
     fontSize: 15,
-    color: '#656565',
+    color: COLORS.gray,
   },
 });
 
