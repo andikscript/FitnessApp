@@ -7,6 +7,9 @@ const COLORS = {
   transparent: 'transparent',
   gray: '#656565',
   whiteGray: '#fafafa',
+  red: '#d50000',
+  phlox: '#d500f9',
+  thistle: '#d1c4e9',
 };
 
 export default COLORS;
