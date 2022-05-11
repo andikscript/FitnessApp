@@ -12,6 +12,7 @@ Part | Image |
 | Onboarding 2 | <img src="https://user-images.githubusercontent.com/58913447/165700351-e53b2d44-7a15-4e10-8cd8-c1c9a85b9a5f.png" width="250" height="550" /> |
 | Onboarding 3 | <img src="https://user-images.githubusercontent.com/58913447/165699583-069f06f8-a364-41e1-a63c-bdc598e9a181.png" width="250" height="550" /> |
 | Onboarding 4 | <img src="https://user-images.githubusercontent.com/58913447/165699738-be976e84-15d8-454c-b940-43c4b0bde885.png" width="250" height="550" /> |
+| Sign Up | <img src="https://user-images.githubusercontent.com/58913447/167840310-0b57d8d9-2187-41bb-a7fb-c3530b721798.png" width="250" height="550" /> |
 
 ## LICENSE
 MIT License
